@@ -31,11 +31,11 @@ Our FCAIQNet weights are already included in the repository and can be found at 
 🔥DroneVehicle: 
 
 ```
-\FCAIQNet-main\runs\DroneVehicle\train\FCAIQNet\weights
+\runs\DroneVehicle\train\FCAIQNet\weights
 ```
 🔥OGSOD-1.0: 
 ```
-\FCAIQNet-main\runs\OGSOD\train\512\FCAIQNet\weights
+\runs\OGSOD\train\512\FCAIQNet\weights
 ```
 # 🔧Environment
 ```
