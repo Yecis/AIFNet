@@ -48,11 +48,11 @@ pip install -U pip setuptools wheel
 pip install -r requirements.txt
 ```
 
-# 🔧Train and test
+# 🔩Train and test
 
 ⚠️Dataset path, GPU, batch size, etc., need to be modified according to different situations.
 
-Training our FCAIQNet
+Train our FCAIQNet
 ```
 python train.py
 ```
