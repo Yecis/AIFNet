@@ -1,5 +1,6 @@
-# 🚀FCAIQNet
-The open available code for paper "FCAIQNet: Frequency-Channel Adaptive Interaction and Quad-scale Adaptive Fusion Network for Multimodal UAV Object Detection"
+# 🚀AIFNet
+The open available code for paper "AIFNet: Adaptive Frequency-Channel Interaction and Quad-scale Fusion Network for Multimodal 
+UAV Object Detection"
 <img width="8458" height="5888" alt="overall" src="https://github.com/user-attachments/assets/fed038a1-2a9a-4adc-a87c-79f293dcb4fe" />
 
 # 📚Dataset
@@ -26,22 +27,22 @@ Link: https://pan.baidu.com/s/1GQtg2bGXQEKlDFInlWPQvQ  Code: xjki
 Link: https://pan.baidu.com/s/1kho0fNpxK_3PSDmS0Yb-Uw  Code: qfm3 
 
 # 🔣Model
-Our FCAIQNet weights are already included in the repository and can be found at the following location
+Our AIFNet weights are already included in the repository and can be found at the following location
 
 🔥DroneVehicle: 
 
 ```
-\runs\DroneVehicle\train\FCAIQNet\weights
+\runs\DroneVehicle\train\AIFNet\weights
 ```
 🔥OGSOD-1.0: 
 ```
-\runs\OGSOD\train\512\FCAIQNet\weights
+\runs\OGSOD\train\512\AIFNet\weights
 ```
 # 🔧Environment
 ```
-conda create -n FCAIQNet python=3.10
+conda create -n AIFNet python=3.10
 
-conda activate FCAIQNet
+conda activate AIFNet
 
 pip install -U pip setuptools wheel
 
@@ -52,12 +53,12 @@ pip install -r requirements.txt
 
 ⚠️Dataset path, GPU, batch size, etc., need to be modified according to different situations.
 
-Train our FCAIQNet
+Train our AIFNet
 ```
 python train.py
 ```
 
-Test our FCAIQNet
+Test our AIFNet
 ```
 python val.py
 ```
