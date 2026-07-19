@@ -1,7 +1,7 @@
 # 🚀AIFNet
 The open available code for paper "AIFNet: Adaptive Frequency-Channel Interaction and Quad-scale Fusion Network for Multimodal 
 UAV Object Detection"
-<img width="8458" height="5888" alt="overall" src="https://github.com/user-attachments/assets/fed038a1-2a9a-4adc-a87c-79f293dcb4fe" />
+<img width="8458" height="5888" alt="overall" src="fig\AIFNet.png" />
 
 # 📚Dataset
 DroneVehicle is a large-scale paired RGB–IR UAV vehicle dataset covering nighttime scenes. Its aerial images contain small, densely distributed and partially occluded vehicles under strong illumination variations, especially at night, which closely matches our RGB–IR UAV small-object fusion detection setting and is suitable for evaluating cross-modal interaction and multi-scale feature fusion. In our experiments, white image borders are removed, each RGB–IR pair is resized to 640×640, and annotations are converted to YOLO horizontal bounding boxes. The processed dataset contains 17,990 training pairs, 1,469 validation pairs.
